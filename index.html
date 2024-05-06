@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Волшебная фотогалерея</title>
+    <style>
+    .h1{
+        position: absolute;
+        width: 575px;
+        height: 50px;
+        color: aquamarine;
+    }
+.menu{
+    display: inline;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid rgb(0, 162, 255);
+    top: 80px;
+    padding: 10px;
+    width: 615px;
+    height: 24px;
+    font-weight: 700;
+    text-decoration-line: none;
+    color: rgb(44, 43, 43);
+    text-align: center;
+}
+.menu:hover{
+text-decoration: underline;
+color: orange;
+}
+a:link {
+color: green;
+}
+button:active {
+color: red;
+}
+h2:hover{
+color: blue;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+#buy{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    width: 160px;
+    height: 46px;
+    border-radius: 25px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 162, 255);
+    background: rgb(148, 245, 240);
+}
+.zoom-effect:hover {
+    transform: scale(2);
+}
+.easy-zoom-effect:hover {
+    transform: scale(1.25);
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    height: 1000px;
+    flex-basis: 100px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    height:3900px;
+    flex-basis: 100px;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    height: 1000px;
+    flex-basis: 100px;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        
+        <nav>
+            <a class="menu" href="#magic_wands">Волшебные палочки</a>
+            <a class="menu" href="#potions">Зелья</a>
+            <a class="menu" href="#magic_books">Волшебные книги</a>
+            <a class="menu" href="#magic_brooms">Волшебные метлы</a>
+            <button type="submit" id="buy">Купить</button>
+        </nav>
+    </header>
+    <main>
+        <h1>Волшебная фотогалерея</h1>
+        <div class="container1">
+            <h2 id="magic_wands">Волшебные палочки</h2>
+            <img src="assets/image/volshebnye-palochki.png"   class="easy-zoom-effect" alt="Различные волшебные палочки">
+        </div>
+        <div class="container2">
+            <h2 id="magic_books">Волшебные книги</h2>
+            <img src="assets/image/130810010924.jpg" alt="книга о магии">
+            <img src="assets/image/41puJuD0DDL.jpg" style="width: 600px;" alt="книга о чёрной магии">
+            <img src="assets/image/78765ae0ffc74aa64c5d09885770d2a7.jpg" alt="зловещая книга">
+        </div>
+        <div class="container3">
+            <h2 id="potions">Зелья</h2>
+            <img src="assets/image/InCollage_20231117_095020203.jpg" alt="множество различный зелий">
+            <img src="assets/image/95e1f11163bf11eea992ca697c28bd51_upscaled.jpg" style="width: 600px;" alt="зелёные зелья">
+            <img src="assets/image/Halloween-potion-labels-feature-2014.jpg" style="width: 600px;" alt="чёрные банки с зельем">
+            ё
+        </div>
+        <div class="container4">
+            <h2 id="magic_brooms">Волшебные метлы</h2>
+            <img src="assets/image/metly.png" style="width: 700px;" class="zoom-effect" alt="множество различный волшебных метл">
+        </div>
+    </main>
+</body>
+</html>

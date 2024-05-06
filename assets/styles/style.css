@@ -1,0 +1,84 @@
+.container{
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(146, 138, 138);
+    padding: 10px 20px;
+}
+.middlecontainer{
+    display: flex;
+    justify-content: center;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: center;
+    align-items: center;
+    border: 1px;
+    background-color: rgb(240, 219, 178);
+    height: 300px;
+    flex-basis: 100px;
+    flex: 1;
+}
+.maincontainer p{
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    width: 1500px;
+    height: 500px;
+    background-color: rgb(228, 180, 82);
+    padding: 10px 20px;
+    margin: 10px;
+}
+.smallcontainer p{
+    border: 1px;
+    display: flex;
+    align-self: center;
+    width: 500px;
+    height: 20px;
+    background-color: rgb(228, 180, 82);
+    padding: 10px 20px;
+    margin: 10px;
+}
+.smallcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: self-end;
+    width: 100px;
+    height: 50px;
+}
+.container2{
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(157, 241, 209);
+    padding: 10px 20px;
+}
+.maincontainer .container2{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: -4px;
+    align-items: stretch;
+}
+.container3{
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(146, 138, 138);
+    padding: 10px 20px;
+}
+.container3 p {
+    border: 1px; 
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(184, 176, 176);
+    padding: 10px 20px;
+    margin-left: 60px;
+}

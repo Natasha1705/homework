@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(146, 138, 138);
+            padding: 10px 20px;
+        }
+        .middlecontainer{
+            display: flex;
+            justify-content: center;
+        }
+        .maincontainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px;
+            background-color: rgb(240, 219, 178);
+            height: 300px;
+            flex-basis: 100px;
+            flex: 1;
+        }
+        .maincontainer p{
+            border: 1px;
+            display: flex;
+            flex-direction: row;
+            flex-flow: row wrap;
+            width: 1500px;
+            height: 500px;
+            background-color: rgb(228, 180, 82);
+            padding: 10px 20px;
+            margin: 10px;
+        }
+        .smallcontainer p{
+            border: 1px;
+            display: flex;
+            align-self: center;
+            width: 500px;
+            height: 20px;
+            background-color: rgb(228, 180, 82);
+            padding: 10px 20px;
+            margin: 10px;
+        }
+        .smallcontainer{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: self-end;
+            width: 100px;
+            height: 50px;
+        }
+        .container2{
+            border: 1px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(157, 241, 209);
+            padding: 10px 20px;
+        }
+        .maincontainer .container2{
+            display: inline-block;
+            vertical-align: top;
+            width: 50%;
+            box-sizing: border-box;
+            padding: 10px;
+            margin-right: -4px;
+            align-items: stretch;
+        }
+        .container3{
+            border: 1px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(146, 138, 138);
+            padding: 10px 20px;
+        }
+        .container3 p {
+            border: 1px; 
+            display: flex;
+            flex-direction: row;
+            width: 100px;
+            height: 50px;
+            background-color: rgb(184, 176, 176);
+            padding: 10px 20px;
+            margin-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2>Шапка страницы</h2>
+        </div>
+    </header>
+    <main>
+        <div class="middlecontainer">
+            <div class="maincontainer">
+                <h2>Основная часть</h2>
+                <div class="smallcontainer"></div>
+                <p>Ещё 1</p>
+                <p>Ещё 2</p>
+                <p>Ещё 3</p>
+            </div>
+            <div class="container2">
+                <h2>Боковая часть</h2>
+            </div>
+        </div>
+    <footer>
+        <div class="container3">
+            <p>Секция футера 1</p>
+            <p>Секция футера 2</p>
+            <p>Секция футера 3</p>
+            <p>Секция футера 4</p>
+        </div>
+    </footer>
+    </main>
+</body>
+</html>
